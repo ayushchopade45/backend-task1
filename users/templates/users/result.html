@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body
+{
+    margin: 0;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+}
+.container
+{
+    display: grid;
+    height: auto;
+    width: 100%;
+    margin-top: 20%;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    column-gap: 200px;
+}
+.btn1 button
+{
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 20px;
+}
+.btn2 button
+{
+    height: 100px;
+    width: 200px;
+    color: darkblue;
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 20px;
+}
+.btn1 button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.btn2 button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>BUTTON </title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <div class="container">
+        Your Result is :{{results}}
+    </div>
+</body>
+</html>
