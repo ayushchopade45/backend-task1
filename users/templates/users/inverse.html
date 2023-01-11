@@ -57,7 +57,12 @@
 </head>
 <body>
     <div class="container">
-        Your Encoded message  is :{{results}}
+        <form action="{% url 'result3' %}">
+                Enter the message u need to inverse Casing: <input type="text" name="text1"><br>
+
+
+            <input type="submit">
+        </form>
     </div>
 </body>
 </html>

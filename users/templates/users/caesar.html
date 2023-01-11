@@ -57,7 +57,13 @@
 </head>
 <body>
     <div class="container">
-        Your Encoded message  is :{{results}}
+        <form action="{% url 'result4' %}">
+                Enter the String: <input type="text" name="text1"><br>
+                Enter the Shift: <input type="text" name="val1">
+
+
+            <input type="submit">
+        </form>
     </div>
 </body>
 </html>

@@ -29,7 +29,11 @@ urlpatterns = [
     path('logout/',auth_views.LogoutView.as_view(template_name='users/logout.html'),name='logout'),
     path('options/', user_views.options, name='options'),
     path('encode/', user_views.encode, name='encode'),
-    path('decode/', user_views.decode, name='decode')
+    path('decode/', user_views.decode, name='decode'),
+    path('morse/', user_views.morse, name='morse'),
+    path('inverse/', user_views.inverse, name='inverse'),
+    path('caesar/', user_views.caesar, name='caesar')
+
 
 
 

@@ -40,6 +40,39 @@
     font-weight: 800;
     border-radius: 20px;
 }
+.btn3 button
+{
+    height: 100px;
+    width: 200px;
+    color: darkblue;
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 20px;
+}
+.btn4 button
+{
+    height: 100px;
+    width: 200px;
+    color: darkblue;
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 20px;
+}
+.btn5 button
+{
+    height: 100px;
+    width: 200px;
+    color: darkblue;
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 20px;
+}
 .btn1 button:hover{
     background-color: greenyellow;
     cursor: pointer;
@@ -48,6 +81,19 @@
     background-color: greenyellow;
     cursor: pointer;
 }
+.btn3 button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.btn4 button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.btn5 button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,6 +108,15 @@
         </div>
         <div class="btn2">
             <button><a href="{% url 'decode' %}">Base 64 Decoding</a></button>
+        </div>
+          <div class="btn3">
+            <button><a href="{% url 'morse' %}">Morse Code</a></button>
+        </div>
+         <div class="btn4">
+            <button><a href="{% url 'inverse' %}">Inverse Casing</a></button>
+        </div>
+         <div class="btn5">
+            <button><a href="{% url 'caesar' %}">Caesar Ciphar</a></button>
         </div>
     </div>
 </body>
